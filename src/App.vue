@@ -31,7 +31,7 @@ nav a {
 
 nav a.router-link-exact-active {
   color: white;
-  background: linear-gradient(#4fd6f7, #b8e3ff);
+  background: linear-gradient(190deg, #4fd6f7, #b8e3ff);
 }
 button {
   margin: 0 10px;
