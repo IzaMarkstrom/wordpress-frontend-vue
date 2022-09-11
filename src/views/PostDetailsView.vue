@@ -2,7 +2,6 @@
   <h1>Post Detail page</h1>
 
   <div v-if="post" class="post">
-    <!-- <img src="" alt=""> -->
     <div class="container">
       <h2>{{post.title}}</h2>
       <p>Post ID is: {{id}}</p>
