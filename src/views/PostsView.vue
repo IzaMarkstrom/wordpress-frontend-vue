@@ -49,5 +49,6 @@
     }
     .detailsLink a {
         text-decoration: none;
+        max-width: 400px;
     }
   </style>
