@@ -1,13 +1,15 @@
 <template>
-  <h1>Post Detail page</h1>
-  <div v-if="post" class="post">
-    <div class="container">
-      <h2>{{post.title}}</h2>
-      <p>Post ID is: {{id}}</p>
-      <p v-html="post.content"></p>
+  <div class="container">
+    <h1>Post Detail page</h1>
+    <div v-if="post" class="post">
+      <div class="card">
+        <h2>{{post.title}}</h2>
+        <p>Post ID is: {{id}}</p>
+        <p v-html="post.content"></p>
+      </div>
     </div>
+    <button @click="back">Go back</button>
   </div>
-  <button @click="back">Go back</button>
 </template>
 
 <script>
@@ -34,12 +36,15 @@
     
     
 <style>
+  .container {
+    margin: 0 auto;
+    /* align-items: center; */
+  }
   .post {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     max-width: 800px;
-    margin-left: 18%;
   }
-  .container {
+  .card {
     padding: 2px 16px;
   }
   button {
