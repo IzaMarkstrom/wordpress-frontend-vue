@@ -46,26 +46,12 @@ This project is deployed in Vercel [here](https://wordpress-frontend-vue.vercel.
 ## Deploy on your own
 You need to have forked the project for this step.
 
-1. Go to [vercel](https://vercel.com/dashboard) and create an account/ log in.
+1. Go to [Vercel](https://vercel.com/dashboard) and create an account/ log in.
 2. Add new - project
 3. Connect GitHub till Vercel 
 4. Import your repository
 5. Add environmental variables (same as in your .env file)
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
 
 ## Contact
