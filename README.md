@@ -23,9 +23,9 @@ Depending on if you want to deploy on your own you need to fork this repository,
    ```bash
    npm install
    ```
-3. Create an .env file with variable name ????
+3. Create an .env file with your API URL with this variable name
    ```bash
-   pip install foobar
+   VUE_APP_BACKEND_URL = "ENTER YOUR URL"
    ```
 
 4. To create new posts to the WordPress backend, send your username or email address to:
