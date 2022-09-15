@@ -7,7 +7,7 @@
           <router-link :to="{name: 'postDetails', params: {id: post.ID}}">
             <h2>{{post.title}}</h2>
           </router-link>
-          <p>{{post.date.split("T")[0]}} {{post.date.split("T")[1]}}</p>
+          <p>{{post.date.split("T")[0]}}</p>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
       }
     },
     mounted(){
-      fetch("https://public-api.wordpress.com/rest/v1.1/sites/izamarkstrom.wordpress.com/posts")
+      fetch(`${process.env.VUE_APP_BACKEND_URL}`)
       .then(res => res.json())
       .then(data => this.posts = data.posts)
       .catch(err => console.log(err.message))
