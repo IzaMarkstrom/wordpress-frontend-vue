@@ -23,7 +23,7 @@ Depending on if you want to deploy on your own you need to fork this repository,
    ```bash
    npm install
    ```
-3. Create an .env file with your API URL with this variable name
+3. Create a .env file with your API URL with this variable name
    ```bash
    VUE_APP_BACKEND_URL = "ENTER YOUR URL"
    ```
@@ -33,10 +33,11 @@ Depending on if you want to deploy on your own you need to fork this repository,
    * markstrom93@hotmail.com
 
 ## Run 
-To start this project you have to run
+To start this project you write this in the terminal
    ```bash
    npm run serve
    ```
+Which opens at port 8080
 
 ![localhost](localhost.jpg)
 
@@ -48,7 +49,7 @@ You need to have forked the project for this step.
 
 1. Go to [Vercel](https://vercel.com/dashboard) and create an account/ log in.
 2. Add new - project
-3. Connect GitHub till Vercel 
+3. Connect GitHub to Vercel 
 4. Import your repository
 5. Add environmental variables (same as in your .env file)
 
