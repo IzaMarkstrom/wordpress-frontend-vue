@@ -21,7 +21,7 @@
         }
       },
       mounted(){
-        fetch("https://public-api.wordpress.com/rest/v1.1/sites/izamarkstrom.wordpress.com/posts/" + this.id)
+        fetch(`${process.env.VUE_APP_BACKEND_URL}/${this.id}`)
         .then(res => res.json())
         .then(data => this.post = data)
         .catch(err => console.log(err.message))
