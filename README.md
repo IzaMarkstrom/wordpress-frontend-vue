@@ -44,6 +44,8 @@ Which opens at port 8080
 ## Deploy
 This project is deployed in Vercel [here](https://wordpress-frontend-vue.vercel.app/)
 
+Vercel won't deploy your code unless you push to GitHub. So you can test your code using the localhost before pushing to GitHub.
+
 ## Deploy on your own
 You need to have forked the project for this step.
 
