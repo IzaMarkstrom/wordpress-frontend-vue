@@ -28,9 +28,10 @@ Depending on if you want to deploy on your own you need to fork this repository,
    VUE_APP_BACKEND_URL = "ENTER YOUR URL"
    ```
 
-4. To create new posts to the WordPress backend, send your username or email address to:
+4. To create new posts to the WordPress backend you have to follow these steps
 
-   * markstrom93@hotmail.com
+   * Sign up Wordpress.com if you do not have an account.
+   * Email your email address to the administrator: markstrom93@hotmail.com
 
 ## Run 
 To start this project you write this in the terminal
